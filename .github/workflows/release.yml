@@ -2,7 +2,7 @@ name: Create Release
 on:
   push:
     tags:
-      - 'v*'
+      - 'vr*'
 jobs:
   release:
     runs-on: ubuntu-20.04
