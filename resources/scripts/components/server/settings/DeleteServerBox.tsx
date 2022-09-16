@@ -24,7 +24,7 @@ export default () => {
         e.stopPropagation();
         clearFlashes('settings');
 
-        deleteServer(uuid, name, password)
+        deleteServer(uuid, name)
             .then(() => {
                 setConfirm(false);
                 addFlash({
