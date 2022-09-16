@@ -38,10 +38,11 @@ module.exports = {
                     500: 'hsl(211, 12%, 43%)',
                     600: 'hsl(209, 14%, 37%)',
                     700: 'hsl(209, 18%, 30%)',
+                    750: '#7289da', // Accent colour
                     800: 'hsl(209, 20%, 25%)',
-                    850: 'hsl(211, 22%, 21%)', // Background colour
-                    875: 'hsl(210, 23%, 18%)', // Sidebar colour
-                    900: 'hsl(210, 24%, 16%)', // Nav/Box colour
+                    850: '#36393f', // Background colour
+                    875: '#2f3136', // Sidebar colour
+                    900: '#2f3136', // Nav/Box colour
                 },
             },
             fontSize: {
@@ -62,3 +63,4 @@ module.exports = {
         }),
     ]
 };
+
