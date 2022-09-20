@@ -27,11 +27,6 @@ const StoreRouter = () => {
             {width >= 1280 ? <SidePanel /> : <MobileNavigation />}
             <SubNavigation className={'j-down'}>
                 <div>
-                    <NavLink to={`${match.url}`} exact>
-                        <div css={tw`flex items-center justify-between`}>
-                            Overview <Icon.Home css={tw`ml-1`} size={18} />
-                        </div>
-                    </NavLink>
                     <NavLink to={`${match.url}/balance`}>
                         <div css={tw`flex items-center justify-between`}>
                             Balance <Icon.DollarSign css={tw`ml-1`} size={18} />
@@ -53,9 +48,6 @@ const StoreRouter = () => {
             </SubNavigation>
             <TransitionRouter>
                 <Switch location={location}>
-                    <Route path={`${match.path}`} exact>
-                        <OverviewContainer />
-                    </Route>
                     <Route path={`${match.path}/balance`} exact>
                         <BalanceContainer />
                     </Route>
