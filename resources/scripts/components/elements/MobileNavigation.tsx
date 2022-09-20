@@ -7,6 +7,7 @@ import { useStoreState } from 'easy-peasy';
 import { ApplicationStore } from '@/state';
 import styled from 'styled-components/macro';
 import { NavLink } from 'react-router-dom';
+import ReferralContainer from '@/components/store/ReferralContainer';
 import SpinnerOverlay from '@/components/elements/SpinnerOverlay';
 import SearchContainer from '@/components/dashboard/search/SearchContainer';
 
