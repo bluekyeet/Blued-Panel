@@ -14,6 +14,7 @@ export default () => {
     const store = useStoreState((state) => state.storefront.data!.enabled);
     const rootAdmin = useStoreState((state) => state.user.data!.rootAdmin);
     const logo = useStoreState((state) => state.settings.data!.logo);
+    const referrals = useStoreState((state) => state.storefront.data!.referrals);
 
     const onTriggerLogout = () => {
         http.post('/auth/logout').finally(() => {

@@ -48,6 +48,7 @@ export default () => {
     const rootAdmin = useStoreState((state: ApplicationStore) => state.user.data!.rootAdmin);
     const store = useStoreState((state) => state.storefront.data!);
     const [isLoggingOut, setIsLoggingOut] = useState(false);
+    const referrals = useStoreState((state) => state.storefront.data!.referrals);
 
     const onTriggerLogout = () => {
         setIsLoggingOut(true);
