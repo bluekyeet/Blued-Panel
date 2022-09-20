@@ -8,6 +8,7 @@ import { NavLink, Link } from 'react-router-dom';
 import ProgressBar from '@/components/elements/ProgressBar';
 import Tooltip from '@/components/elements/tooltip/Tooltip';
 import SearchContainer from '@/components/dashboard/search/SearchContainer';
+import ReferralContainer from '@/components/store/ReferralContainer';
 
 export default () => {
     const store = useStoreState((state) => state.storefront.data!.enabled);
