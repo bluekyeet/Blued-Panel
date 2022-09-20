@@ -81,12 +81,10 @@ export default () => {
                             <Icon.DollarSign size={20} />
                         </NavLink>
                     )}
-                    {store && (
-                        {referrals.enabled && (
-                            <NavLink to={'/store/referrals'}>
-                                <Icon.Link size={20} />
-                            </NavLink>
-                         )}
+                    {referrals.enabled && (
+                        <NavLink to={'/store/referrals'}>
+                            <Icon.Link size={20} />
+                        </NavLink>
                     )}
                     {store && (
                         <NavLink to={'/store/resources'}>
