@@ -75,14 +75,12 @@ export default () => {
                         </Tooltip>
                     </NavLink>
                 )}
-                {store && (
-                    {referrals.enabled && (
-                        <NavLink to={'/store/referrals'} className={'navigation-link'}>
-                            <Tooltip placement={'bottom'} content={'Referrals'}>
-                               <Icon.Link size={30} css={tw`my-8`} />
-                            </Tooltip>
-                        </NavLink>
-                     )}
+                {referrals.enabled && (
+                    <NavLink to={'/store/referrals'} className={'navigation-link'}>
+                        <Tooltip placement={'bottom'} content={'Referrals'}>
+                           <Icon.Link size={30} css={tw`my-8`} />
+                        </Tooltip>
+                    </NavLink>
                 )}
                 {store && (
                     <NavLink to={'/store/resources'} className={'navigation-link'}>
