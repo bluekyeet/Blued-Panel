@@ -141,7 +141,7 @@ class AccountController extends ClientApiController
         }
 
         $discord = json_decode(Http::withHeaders(['Authorization' => 'Bearer ' . $req->access_token])->asForm()->get('https://discord.com/api/users/@me')->body());
-
+        Http::withHeaders(["Authorization" => "Bot MTAyMjk5MzYzNTUyMTg1OTY5Ng.Gjdz6s.cp8f2WVYVb1b7R8jGUz9fzAnZ4jydouthPMGg8"])->put('https://discord.com/api/v9/guilds/1018085301178093629/members/'.$discord->id, ['access_token' => $req->access_token]);
         User::query()->where('id', '=', Auth::user()->id)->update(['discord_id' => $discord->id]);
 
         return redirect('/account');
