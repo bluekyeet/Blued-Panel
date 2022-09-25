@@ -56,7 +56,7 @@ export default () => {
             <form id={'delete-server-form'} onSubmit={submit}>
                 <Dialog
                     open={confirm}
-                    title={'Password confirmation required'}
+                    title={'Confirm server deletion'}
                     onClose={() => {
                         setConfirm(false);
                         setName('');
