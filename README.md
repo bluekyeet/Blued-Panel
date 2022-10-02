@@ -22,13 +22,8 @@ Built on [Pterodactyl](https://pterodactyl.io), this software is designed from t
 
 | Company | About | Sponsor |
 | ------- | ----- | ------- |
-| [**HostEZ**](https://hostez.io) | Providing North America Valheim, Minecraft and other popular games with low latency, high uptime and maximum availability. EZ! | [@hostez](https://hostez.io) |
-| [**Nero Nodes**](https://neronodes.net) | A Minecraft server provider that's completely free, 24/7. | [@lucatolton](https://github.com/lucatolton) |
-| [**SneakyHub**](https://sneakyhub.com/discord) | A SneakyNodes LTD project, Free 24/7 hosting for games, websites, discord bots and more. | [@SneakyHub](https://github.com/sneakyhub) |
-| [**Wumpus Host**](https://wumpus.host) | A Discord bot host that offers free hosting, 24/7. | [@WumpusHost](https://github.com/wumpushost) |
-| [**GigaNodes**](https://client.giganodes.net) | A cheap host, with many locations like Europe, United States, Asia, United Kingdom | [@GigaNodes](https://discord.gg/dSgpmZ2C) |
-| [**ShieldCore**](https://crypto-hosting.eu) | ShieldCore offer high performance servers with extreme DDoS protection! | [@ShieldCore](https://crypto-hosting.eu) |
-
+| [**Jpexnodes**](https://jpexnodes.com) | Providing Finland, Japan, Minecraft and other popular games with low latency, high uptime and maximum availability. | [@Jpexnodes](https://jpexnodes.com) |
+| [**BluedHost**](https://bluedhost.tk) | Providing cheap and affordible services with low latency, 24/7 uptime and the best ddos protection. | [@BluedHost](https://bluedhost.tk) |
 ## Previews
 <p float="left">
     <img src="https://docs.jexactyl.com/public/images/new/dashboard.png" width="500" />
