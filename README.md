@@ -1,5 +1,3 @@
-[![Logo Image](https://cdn.discordapp.com/attachments/1012411945141424218/1012430446556090468/JexactylBannerBasic.jpg)](https://docs.bluedhost.tk)
-
 ![Tests](https://img.shields.io/github/workflow/status/bluekyeet/Blued-Panel/Build%20Panel)
 ![Downloads - Total](https://img.shields.io/github/downloads/bluekyeet/Blued-Panel/total)
 ![Downloads - Latest](https://img.shields.io/github/downloads/bluekyeet/Blued-Panel/latest/total)
