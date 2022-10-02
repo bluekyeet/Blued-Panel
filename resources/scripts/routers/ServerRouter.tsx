@@ -141,15 +141,13 @@ export default () => {
                                         </div>
                                     </NavLink>
                                 </Can>
-                                {databasesEnabled && (
-                                    <Can action={'database.*'}>
-                                        <NavLink to={`${match.url}/databases`}>
-                                            <div css={tw`flex items-center justify-between`}>
-                                                Databases <Icon.Database css={tw`ml-1`} size={18} />
-                                            </div>
-                                        </NavLink>
-                                    </Can>
-                                )}
+                                <Can action={'database.*'}>
+                                    <NavLink to={`${match.url}/databases`}>
+                                        <div css={tw`flex items-center justify-between`}>
+                                            Databases <Icon.Database css={tw`ml-1`} size={18} />
+                                        </div>
+                                    </NavLink>
+                                </Can>
                                 <Can action={'schedule.*'}>
                                     <NavLink to={`${match.url}/schedules`}>
                                         <div css={tw`flex items-center justify-between`}>
