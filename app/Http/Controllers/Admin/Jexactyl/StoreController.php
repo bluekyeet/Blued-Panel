@@ -12,24 +12,12 @@ use Pterodactyl\Contracts\Repository\SettingsRepositoryInterface;
 class StoreController extends Controller
 {
     /**
-     * @var \Prologue\Alerts\AlertsMessageBag
-     */
-    private $alert;
-
-    /**
-     * @var \Pterodactyl\Contracts\Repository\SettingsRepositoryInterface
-     */
-    private $settings;
-
-    /**
      * StoreController constructor.
      */
     public function __construct(
-        AlertsMessageBag $alert,
-        SettingsRepositoryInterface $settings
+        private AlertsMessageBag $alert,
+        private SettingsRepositoryInterface $settings
     ) {
-        $this->alert = $alert;
-        $this->settings = $settings;
     }
 
     /**
@@ -77,8 +65,7 @@ class StoreController extends Controller
             $this->settings->set('jexactyl::' . $key, $value);
         }
 
-        $this->alert->warning('If you have enabled a payment gateway, please remember to configure them. <a href="https://documentation.jexactyl.com">Documentation</a>')->flash();
-        $this->alert->success('Jexactyl Storefront has been updated.')->flash();
+        $this->alert->success('If you have enabled a payment gateway, please remember to configure them. <a href="https://documentation.jexactyl.com">Documentation</a>')->flash();
 
         return redirect()->route('admin.jexactyl.store');
     }
